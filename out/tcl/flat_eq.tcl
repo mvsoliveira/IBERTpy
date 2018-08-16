@@ -1,0 +1,6 @@
+set_property PORT.RXLPMHFHOLD 1 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]
+set_property PORT.RXLPMHFOVRDEN 1 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]
+set_property PORT.RXLPMLFHOLD 1 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]
+set_property PORT.RXLPMLFKLOVRDEN 1 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]
+set_property PORT.RXDFELPMRESET 1 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]
+set_property PORT.RXDFELPMRESET 0 [get_hw_sio_gts *];commit_hw_sio [list [get_hw_sio_gts {*}] ]

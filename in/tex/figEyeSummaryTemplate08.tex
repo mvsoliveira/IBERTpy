@@ -1,0 +1,52 @@
+% \documentclass{article}
+% \usepackage{graphicx}
+% \usepackage[a4paper, margin=0.4in]{geometry}
+% \usepackage{subcaption}
+% \usepackage{printlen}
+% \uselengthunit{cm}
+
+% \newlength\imageheight
+% \newlength\imagewidth
+
+% \begin{document}
+
+\section{<title>}\label{sec:<id><Tex run>}
+
+\begin{figure}[h] % "[t!]" placement specifier just for this example
+\centering
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig00label><Tex run>]{\includegraphicsmaybe{<fig00>}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig01label><Tex run>]{\includegraphicsmaybe{<fig01>}}
+\end{subfigure}
+
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig02label><Tex run>]{\includegraphicsmaybe{<fig02>}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.4\textwidth}
+\hyperref[sec:<fig03label><Tex run>]{\includegraphicsmaybe{<fig03>}}
+\end{subfigure}
+
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig04label><Tex run>]{\includegraphicsmaybe{<fig04>}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.4\textwidth}
+\hyperref[sec:<fig05label><Tex run>]{\includegraphicsmaybe{<fig05>}}
+\end{subfigure}
+
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig06label><Tex run>]{\includegraphicsmaybe{<fig06>}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.5\textwidth}
+\hyperref[sec:<fig07label><Tex run>]{\includegraphicsmaybe{<fig07>}}
+\end{subfigure}
+
+\caption{<title>} \label{fig:<id><Tex run>}
+\end{figure}
+
+A cross-reference to Figure~\ref{fig:<id><Tex run>}.
+<siblings> \\
+Next summary Figure~\ref{fig:<id next><Tex run next>}.
+\clearpage
+% \end{document}

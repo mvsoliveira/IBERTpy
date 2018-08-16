@@ -1,0 +1,981 @@
+% \documentclass{article}
+% \usepackage{graphicx}
+% \usepackage[a4paper, margin=0.5in]{geometry}
+% \usepackage{subcaption}
+% \usepackage{printlen}
+% \uselengthunit{cm}
+
+% \newlength\imageheight
+% \newlength\imagewidth
+
+% \begin{document}
+
+\section{MSP\_C TRP On board links}\label{sec:MSPCTRPOnboardlinks6.4-optimized}
+
+\begin{figure}[h] % "[t!]" placement specifier just for this example
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3900IC1500TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-00--IC15-00-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3901IC1501TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-01--IC15-01-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3902IC1502TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-02--IC15-02-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3903IC1503TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-03--IC15-03-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3904IC1504TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-04--IC15-04-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3905IC1505TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-05--IC15-05-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3906IC1506TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-06--IC15-06-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3907IC1507TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-07--IC15-07-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3908IC1508TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-08--IC15-08-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3909IC1509TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-09--IC15-09-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3910IC1510TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-10--IC15-10-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3911IC1511TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-11--IC15-11-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3912IC1512TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-12--IC15-12-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3913IC1513TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-13--IC15-13-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3914IC1514TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-14--IC15-14-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3915IC1515TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-15--IC15-15-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3916IC1516TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-16--IC15-16-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3917IC1517TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-17--IC15-17-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3918IC1518TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-18--IC15-18-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3919IC1519TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-19--IC15-19-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3920IC1520TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-20--IC15-20-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3921IC1521TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-21--IC15-21-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3922IC1522TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-22--IC15-22-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3923IC1523TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-23--IC15-23-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3924IC1524TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-24--IC15-24-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3925IC1525TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-25--IC15-25-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3926IC1526TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-26--IC15-26-TRP_FPGA.pdf}}
+\end{subfigure}\hspace*{\fill}
+\begin{subfigure}{0.25\textwidth}
+\hyperref[sec:MSPCFPGAIC3927IC1527TRPFPGA6.4-optimized]{\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-27--IC15-27-TRP_FPGA.pdf}}
+\end{subfigure}
+
+\caption{MSP\_C TRP On board links} \label{fig:MSPCTRPOnboardlinks6.4-optimized}
+\end{figure}
+
+A cross-reference to Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCTRPOnboardlinks9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCTRPOnboardlinks12.8-optimized]{12.8-optimized}. \\
+Next summary Figure~\ref{fig:MSPATX1MSPCRX18MinipodLoopback6.4-optimized}.
+\clearpage
+% \end{document}
+\subsection{MSP\_C\_FPGA-IC39-00--IC15-00-TRP\_FPGA}\label{sec:MSPCFPGAIC3900IC1500TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-00--IC15-00-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3900IC1500TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:39:58}                   & \multicolumn{2}{l|}{2018-Jan-24 04:40:32}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 9329        & 45          & 69.23\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-00--IC15-00-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-00--IC15-00-TRP\_FPGA} \label{fig:MSPCFPGAIC3900IC1500TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3900IC1500TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3900IC1500TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-01--IC15-01-TRP\_FPGA}\label{sec:MSPCFPGAIC3901IC1501TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-01--IC15-01-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3901IC1501TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:40:32}                   & \multicolumn{2}{l|}{2018-Jan-24 04:41:09}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10647        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-01--IC15-01-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-01--IC15-01-TRP\_FPGA} \label{fig:MSPCFPGAIC3901IC1501TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3901IC1501TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3901IC1501TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-02--IC15-02-TRP\_FPGA}\label{sec:MSPCFPGAIC3902IC1502TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-02--IC15-02-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3902IC1502TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:41:09}                   & \multicolumn{2}{l|}{2018-Jan-24 04:41:45}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 11284        & 50          & 76.92\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-02--IC15-02-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-02--IC15-02-TRP\_FPGA} \label{fig:MSPCFPGAIC3902IC1502TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3902IC1502TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3902IC1502TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-03--IC15-03-TRP\_FPGA}\label{sec:MSPCFPGAIC3903IC1503TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-03--IC15-03-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3903IC1503TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:41:45}                   & \multicolumn{2}{l|}{2018-Jan-24 04:42:22}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10814        & 49          & 75.38\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-03--IC15-03-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-03--IC15-03-TRP\_FPGA} \label{fig:MSPCFPGAIC3903IC1503TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3903IC1503TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3903IC1503TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-04--IC15-04-TRP\_FPGA}\label{sec:MSPCFPGAIC3904IC1504TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-04--IC15-04-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3904IC1504TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:42:22}                   & \multicolumn{2}{l|}{2018-Jan-24 04:42:58}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10218        & 47          & 72.31\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-04--IC15-04-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-04--IC15-04-TRP\_FPGA} \label{fig:MSPCFPGAIC3904IC1504TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3904IC1504TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3904IC1504TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-05--IC15-05-TRP\_FPGA}\label{sec:MSPCFPGAIC3905IC1505TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-05--IC15-05-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3905IC1505TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:42:59}                   & \multicolumn{2}{l|}{2018-Jan-24 04:43:35}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10324        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-05--IC15-05-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-05--IC15-05-TRP\_FPGA} \label{fig:MSPCFPGAIC3905IC1505TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3905IC1505TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3905IC1505TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-06--IC15-06-TRP\_FPGA}\label{sec:MSPCFPGAIC3906IC1506TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-06--IC15-06-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3906IC1506TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:43:35}                   & \multicolumn{2}{l|}{2018-Jan-24 04:44:12}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10407        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-06--IC15-06-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-06--IC15-06-TRP\_FPGA} \label{fig:MSPCFPGAIC3906IC1506TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3906IC1506TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3906IC1506TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-07--IC15-07-TRP\_FPGA}\label{sec:MSPCFPGAIC3907IC1507TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-07--IC15-07-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3907IC1507TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:44:12}                   & \multicolumn{2}{l|}{2018-Jan-24 04:44:48}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10368        & 47          & 72.31\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-07--IC15-07-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-07--IC15-07-TRP\_FPGA} \label{fig:MSPCFPGAIC3907IC1507TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3907IC1507TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3907IC1507TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-08--IC15-08-TRP\_FPGA}\label{sec:MSPCFPGAIC3908IC1508TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-08--IC15-08-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3908IC1508TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:44:49}                   & \multicolumn{2}{l|}{2018-Jan-24 04:45:25}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10358        & 46          & 70.77\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-08--IC15-08-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-08--IC15-08-TRP\_FPGA} \label{fig:MSPCFPGAIC3908IC1508TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3908IC1508TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3908IC1508TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-09--IC15-09-TRP\_FPGA}\label{sec:MSPCFPGAIC3909IC1509TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-09--IC15-09-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3909IC1509TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:45:26}                   & \multicolumn{2}{l|}{2018-Jan-24 04:46:02}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10570        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-09--IC15-09-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-09--IC15-09-TRP\_FPGA} \label{fig:MSPCFPGAIC3909IC1509TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3909IC1509TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3909IC1509TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-10--IC15-10-TRP\_FPGA}\label{sec:MSPCFPGAIC3910IC1510TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-10--IC15-10-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3910IC1510TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:46:02}                   & \multicolumn{2}{l|}{2018-Jan-24 04:46:38}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10483        & 47          & 72.31\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-10--IC15-10-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-10--IC15-10-TRP\_FPGA} \label{fig:MSPCFPGAIC3910IC1510TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3910IC1510TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3910IC1510TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-11--IC15-11-TRP\_FPGA}\label{sec:MSPCFPGAIC3911IC1511TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-11--IC15-11-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3911IC1511TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:46:39}                   & \multicolumn{2}{l|}{2018-Jan-24 04:47:15}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10606        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-11--IC15-11-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-11--IC15-11-TRP\_FPGA} \label{fig:MSPCFPGAIC3911IC1511TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3911IC1511TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3911IC1511TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-12--IC15-12-TRP\_FPGA}\label{sec:MSPCFPGAIC3912IC1512TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-12--IC15-12-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3912IC1512TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:47:15}                   & \multicolumn{2}{l|}{2018-Jan-24 04:47:51}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10889        & 50          & 76.92\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-12--IC15-12-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-12--IC15-12-TRP\_FPGA} \label{fig:MSPCFPGAIC3912IC1512TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3912IC1512TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3912IC1512TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-13--IC15-13-TRP\_FPGA}\label{sec:MSPCFPGAIC3913IC1513TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-13--IC15-13-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3913IC1513TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:47:52}                   & \multicolumn{2}{l|}{2018-Jan-24 04:48:28}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 11580        & 51          & 78.46\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-13--IC15-13-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-13--IC15-13-TRP\_FPGA} \label{fig:MSPCFPGAIC3913IC1513TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3913IC1513TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3913IC1513TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-14--IC15-14-TRP\_FPGA}\label{sec:MSPCFPGAIC3914IC1514TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-14--IC15-14-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3914IC1514TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:48:28}                   & \multicolumn{2}{l|}{2018-Jan-24 04:49:04}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 11183        & 50          & 76.92\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-14--IC15-14-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-14--IC15-14-TRP\_FPGA} \label{fig:MSPCFPGAIC3914IC1514TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3914IC1514TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3914IC1514TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-15--IC15-15-TRP\_FPGA}\label{sec:MSPCFPGAIC3915IC1515TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-15--IC15-15-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3915IC1515TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:49:04}                   & \multicolumn{2}{l|}{2018-Jan-24 04:49:40}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 11184        & 49          & 75.38\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-15--IC15-15-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-15--IC15-15-TRP\_FPGA} \label{fig:MSPCFPGAIC3915IC1515TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3915IC1515TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3915IC1515TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-16--IC15-16-TRP\_FPGA}\label{sec:MSPCFPGAIC3916IC1516TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-16--IC15-16-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3916IC1516TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:49:41}                   & \multicolumn{2}{l|}{2018-Jan-24 04:50:17}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10134        & 45          & 69.23\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-16--IC15-16-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-16--IC15-16-TRP\_FPGA} \label{fig:MSPCFPGAIC3916IC1516TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3916IC1516TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3916IC1516TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-17--IC15-17-TRP\_FPGA}\label{sec:MSPCFPGAIC3917IC1517TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-17--IC15-17-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3917IC1517TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:50:17}                   & \multicolumn{2}{l|}{2018-Jan-24 04:50:53}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10236        & 46          & 70.77\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-17--IC15-17-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-17--IC15-17-TRP\_FPGA} \label{fig:MSPCFPGAIC3917IC1517TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3917IC1517TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3917IC1517TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-18--IC15-18-TRP\_FPGA}\label{sec:MSPCFPGAIC3918IC1518TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-18--IC15-18-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3918IC1518TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:50:53}                   & \multicolumn{2}{l|}{2018-Jan-24 04:51:29}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10543        & 47          & 72.31\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-18--IC15-18-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-18--IC15-18-TRP\_FPGA} \label{fig:MSPCFPGAIC3918IC1518TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3918IC1518TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3918IC1518TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-19--IC15-19-TRP\_FPGA}\label{sec:MSPCFPGAIC3919IC1519TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-19--IC15-19-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3919IC1519TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:51:29}                   & \multicolumn{2}{l|}{2018-Jan-24 04:52:05}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10508        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-19--IC15-19-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-19--IC15-19-TRP\_FPGA} \label{fig:MSPCFPGAIC3919IC1519TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3919IC1519TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3919IC1519TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-20--IC15-20-TRP\_FPGA}\label{sec:MSPCFPGAIC3920IC1520TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-20--IC15-20-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3920IC1520TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:52:06}                   & \multicolumn{2}{l|}{2018-Jan-24 04:52:42}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10753        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-20--IC15-20-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-20--IC15-20-TRP\_FPGA} \label{fig:MSPCFPGAIC3920IC1520TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3920IC1520TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3920IC1520TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-21--IC15-21-TRP\_FPGA}\label{sec:MSPCFPGAIC3921IC1521TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-21--IC15-21-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3921IC1521TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:52:42}                   & \multicolumn{2}{l|}{2018-Jan-24 04:53:18}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10797        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-21--IC15-21-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-21--IC15-21-TRP\_FPGA} \label{fig:MSPCFPGAIC3921IC1521TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3921IC1521TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3921IC1521TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-22--IC15-22-TRP\_FPGA}\label{sec:MSPCFPGAIC3922IC1522TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-22--IC15-22-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3922IC1522TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:53:19}                   & \multicolumn{2}{l|}{2018-Jan-24 04:53:54}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10526        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-22--IC15-22-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-22--IC15-22-TRP\_FPGA} \label{fig:MSPCFPGAIC3922IC1522TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3922IC1522TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3922IC1522TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-23--IC15-23-TRP\_FPGA}\label{sec:MSPCFPGAIC3923IC1523TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-23--IC15-23-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3923IC1523TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:53:54}                   & \multicolumn{2}{l|}{2018-Jan-24 04:54:30}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10510        & 46          & 70.77\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-23--IC15-23-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-23--IC15-23-TRP\_FPGA} \label{fig:MSPCFPGAIC3923IC1523TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3923IC1523TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3923IC1523TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-24--IC15-24-TRP\_FPGA}\label{sec:MSPCFPGAIC3924IC1524TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-24--IC15-24-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3924IC1524TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:54:30}                   & \multicolumn{2}{l|}{2018-Jan-24 04:55:07}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10410        & 46          & 70.77\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-24--IC15-24-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-24--IC15-24-TRP\_FPGA} \label{fig:MSPCFPGAIC3924IC1524TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3924IC1524TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3924IC1524TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-25--IC15-25-TRP\_FPGA}\label{sec:MSPCFPGAIC3925IC1525TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-25--IC15-25-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3925IC1525TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:55:07}                   & \multicolumn{2}{l|}{2018-Jan-24 04:55:43}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10608        & 48          & 73.85\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-25--IC15-25-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-25--IC15-25-TRP\_FPGA} \label{fig:MSPCFPGAIC3925IC1525TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3925IC1525TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3925IC1525TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-26--IC15-26-TRP\_FPGA}\label{sec:MSPCFPGAIC3926IC1526TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-26--IC15-26-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3926IC1526TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:55:44}                   & \multicolumn{2}{l|}{2018-Jan-24 04:56:20}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10023        & 46          & 70.77\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-26--IC15-26-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-26--IC15-26-TRP\_FPGA} \label{fig:MSPCFPGAIC3926IC1526TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3926IC1526TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3926IC1526TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+
+
+\subsection{MSP\_C\_FPGA-IC39-27--IC15-27-TRP\_FPGA}\label{sec:MSPCFPGAIC3927IC1527TRPFPGA6.4-optimized}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{MSP\_C\_FPGA-IC39-27--IC15-27-TRP\_FPGA}
+\label{tab:MSPCFPGAIC3927IC1527TRPFPGA6.4-optimized}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+2017.2                       & UltraScale GTY          & \multicolumn{2}{l|}{2018-Jan-24 04:56:20}                   & \multicolumn{2}{l|}{2018-Jan-24 04:56:56}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+true & 10306        & 47          & 72.31\%        & 255        & 100.00\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+BER                            & 1e-7        & 1        & 1           & \multicolumn{2}{l|}{ELF Version: 0x4002 SVN: 0}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{../scans/pdf/6.4-optimized/MSP_C_FPGA-IC39-27--IC15-27-TRP_FPGA.pdf}
+\caption{MSP\_C\_FPGA-IC39-27--IC15-27-TRP\_FPGA} \label{fig:MSPCFPGAIC3927IC1527TRPFPGA6.4-optimized}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:MSPCTRPOnboardlinks6.4-optimized}.
+Sibling eye diagrams: \hyperref[sec:MSPCFPGAIC3927IC1527TRPFPGA9.6-optimized]{9.6-optimized}, \hyperref[sec:MSPCFPGAIC3927IC1527TRPFPGA12.8-optimized]{12.8-optimized}.
+
+\clearpage
+\newpage
+

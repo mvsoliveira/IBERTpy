@@ -1,0 +1,31 @@
+
+\subsection{<Scan Name>}\label{sec:<Scan label><Tex run>}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{<Scan Name>}
+\label{tab:<Scan label><Tex run>}
+\begin{tabular}{@{}|l|l|l|l|l|l|@{}}
+\toprule
+\textbf{SW Version}                & \textbf{GT Type}   & \multicolumn{2}{l|}{\textbf{Date and Time Started}}            & \multicolumn{2}{l|}{\textbf{Date and Time Ended}}        \\ \midrule
+<SW Version>                       & <GT Type>          & \multicolumn{2}{l|}{<Date and Time Started>}                   & \multicolumn{2}{l|}{<Date and Time Ended>}               \\ \midrule
+\textbf{Reset RX}                  & \textbf{OA} & \textbf{HO}   & \textbf{HO (\%)} & \textbf{VO} & \textbf{VO (\%)} \\ \midrule
+<Reset RX After Applying Settings> & <Open Area>        & <Horizontal Opening>          & <Horizontal Percentage>\%        & <Vertical Opening>        & <Vertical Percentage>\%       \\ \midrule
+\textbf{Dwell Type}                & \textbf{Dwell BER} & \textbf{Horizontal Increment} & \textbf{Vertical Increment}    & \multicolumn{2}{l|}{\textbf{Misc Info}}                  \\ \midrule
+<Dwell>                            & <Dwell BER>        & <Horizontal Increment>        & <Vertical Increment>           & \multicolumn{2}{l|}{<Misc Info>}                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[h]
+\includegraphicsmaybe{<fig>}
+\caption{<Scan Name>} \label{fig:<Scan label><Tex run>}
+\end{figure}
+
+Call back to summary Figure~\ref{fig:<id><Tex run>}.
+<siblings>
+
+\clearpage
+\newpage
+

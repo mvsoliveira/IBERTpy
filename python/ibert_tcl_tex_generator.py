@@ -70,7 +70,7 @@ runs = [
 ]
 
 #tex_runs = ['6.4','9.6','9.6Swing','12.8','12.8TermSwing', '12.8TermSwingFlatEQ']
-tex_runs = ['6.4-optimized','9.6-optimized','12.8-optimized']
+tex_runs = ['6.4']
 tex_files= []
 report_detail = True
 

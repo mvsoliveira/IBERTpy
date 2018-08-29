@@ -73,7 +73,7 @@ def get_scan_list(i):
         scan_list = list(reader)
         return scan_list
     
-rates = ['6.4-optimized','9.6-optimized','12.8-optimized','6.4 default','9.6 default','12.8 default']
+rates = ['6.4']
     
 for rate in rates:     
     

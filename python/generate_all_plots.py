@@ -19,8 +19,14 @@ filename_o_list = [p.replace('csv','pdf') for p in filename_i_list]
 yticks = range(-127,0,16)+[0]+range(127,0,-16)[-1::-1]
 xticks = list(np.arange(-0.5,0.625,0.125))
 k=1
+#if os.path.exists('..\scans\eyedata.csv'):
+#    pass
+#else
+#    eyedict
+
 for i,o in zip(filename_i_list, filename_o_list):
     print('Saving file {0:03d} out of {1:d}.'.format(k,len(filename_i_list)))
     if (not os.path.exists(o)) or overwrite:
         eyescan_plot(i, o, minlog10ber, colorbar=True, xaxis=True, yaxis=True, xticks_f=xticks, yticks_f=yticks)
     k += 1
+    #break

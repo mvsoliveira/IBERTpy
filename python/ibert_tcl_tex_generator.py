@@ -27,10 +27,10 @@ schem_map = {
 runs = [
 #Run 0
 [
-{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX16','I'], 'name': 'MSP_A TX1 MSP_C RX16 Minipod Loopback'},
-{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX15','I'], 'name': 'MSP_A TX2 MSP_C RX15 Minipod Loopback'},
-{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX7','I'], 'name': 'MSP_C TX3 MSP_A RX7 Minipod Loopback'},
-{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX6','I'], 'name': 'MSP_C TX4 MSP_A RX6 Minipod Loopback'},
+{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX15','I'], 'name': 'MSP_A TX1 MSP_C RX15 Minipod Loopback'},
+{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX16','I'], 'name': 'MSP_A TX2 MSP_C RX16 Minipod Loopback'},
+{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX6','I'], 'name': 'MSP_C TX3 MSP_A RX6 Minipod Loopback'},
+{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX7','I'], 'name': 'MSP_C TX4 MSP_A RX7 Minipod Loopback'},
 {'TX': ['IC39','TX5','O'], 'RX': ['IC4','RX5','I'], 'name': 'Partial TRP TX5 MSP_A RX5 Minipod Loopback'},
 {'TX': ['IC39','J1','O'], 'RX': ['IC39','J1','I'], 'name': 'TRP J1 QSFP Loopback'},
 {'TX': ['IC39','J3','O'], 'RX': ['IC39','J3','I'], 'name': 'TRP J3 SFP Loopback'},
@@ -39,25 +39,25 @@ runs = [
 ],
 #Run 1
 [
-{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX18','I'], 'name': 'MSP_A TX1 MSP_C RX18 Minipod Loopback'},
-{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX17','I'], 'name': 'MSP_A TX2 MSP_C RX17 Minipod Loopback'},
-{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX9','I'], 'name': 'MSP_C TX3 MSP_A RX9 Minipod Loopback'},
-{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX8','I'], 'name': 'MSP_C TX4 MSP_A RX8 Minipod Loopback'},
+{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX17','I'], 'name': 'MSP_A TX1 MSP_C RX17 Minipod Loopback'},
+{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX18','I'], 'name': 'MSP_A TX2 MSP_C RX18 Minipod Loopback'},
+{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX8','I'], 'name': 'MSP_C TX3 MSP_A RX8 Minipod Loopback'},
+{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX9','I'], 'name': 'MSP_C TX4 MSP_A RX9 Minipod Loopback'},
 {'TX': ['IC39','TX5','O'], 'RX': ['IC15','RX14','I'], 'name': 'Partial TRP TX5 MSP_C RX14 Minipod Loopback'}
 ],
 #Run 2
 [
-{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX11','I'], 'name': 'MSP_A TX1 MSP_C RX11 Minipod Loopback'},
-{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX10','I'], 'name': 'MSP_A TX2 MSP_C RX10 Minipod Loopback'},
-{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX2','I'], 'name': 'MSP_C TX3 MSP_A RX2 Minipod Loopback'},
-{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX1','I'], 'name': 'MSP_C TX4 MSP_A RX1 Minipod Loopback'}
+{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX10','I'], 'name': 'MSP_A TX1 MSP_C RX10 Minipod Loopback'},
+{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX11','I'], 'name': 'MSP_A TX2 MSP_C RX11 Minipod Loopback'},
+{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX1','I'], 'name': 'MSP_C TX3 MSP_A RX1 Minipod Loopback'},
+{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX2','I'], 'name': 'MSP_C TX4 MSP_A RX2 Minipod Loopback'}
 ],
 #Run 3
 [
-{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX13','I'], 'name': 'MSP_A TX1 MSP_C RX13 Minipod Loopback'},
-{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX12','I'], 'name': 'MSP_A TX2 MSP_C RX12 Minipod Loopback'},
-{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX4','I'], 'name': 'MSP_C TX3 MSP_A RX4 Minipod Loopback'},
-{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX3','I'], 'name': 'MSP_C TX4 MSP_A RX3 Minipod Loopback'}
+{'TX': ['IC4','TX1','O'], 'RX': ['IC15','RX12','I'], 'name': 'MSP_A TX1 MSP_C RX12 Minipod Loopback'},
+{'TX': ['IC4','TX2','O'], 'RX': ['IC15','RX13','I'], 'name': 'MSP_A TX2 MSP_C RX13 Minipod Loopback'},
+{'TX': ['IC15','TX3','O'], 'RX': ['IC4','RX3','I'], 'name': 'MSP_C TX3 MSP_A RX3 Minipod Loopback'},
+{'TX': ['IC15','TX4','O'], 'RX': ['IC4','RX4','I'], 'name': 'MSP_C TX4 MSP_A RX4 Minipod Loopback'}
 ]
 #,
 #[
@@ -70,7 +70,8 @@ runs = [
 ]
 
 #tex_runs = ['6.4','9.6','9.6Swing','12.8','12.8TermSwing', '12.8TermSwingFlatEQ']
-tex_runs = ['6.4']
+#tex_runs = ['V1-6.4', 'V1-12.8', 'V2-6.4', 'V2-12.8']
+tex_runs = ['V1-6.4', 'V1-12.8', 'V2-6.4', 'V2-12.8']
 tex_files= []
 report_detail = True
 
@@ -320,3 +321,4 @@ for run in runs:
     genScanTCLFile(r, source_scans(run))
     r+=1
 genTexInputCalls(tex_files)
+print tex_files

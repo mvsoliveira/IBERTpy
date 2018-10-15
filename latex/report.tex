@@ -69,29 +69,118 @@
 \tableofcontents
 \newpage
 
+\chapter{Initial Considerations}
 
-\chapter{6.4 Gbps} \newpage
-\input{../out/tex/MSP_A_TX1_MSP_C_RX16_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX2_MSP_C_RX15_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX3_MSP_A_RX7_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX4_MSP_A_RX6_Minipod_Loopback_6.4.tex}
-\input{../out/tex/Partial_TRP_TX5_MSP_A_RX5_Minipod_Loopback_6.4.tex}
-\input{../out/tex/TRP_J1_QSFP_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TRP_On_board_links_6.4.tex}
-\input{../out/tex/MSP_C_TRP_On_board_links_6.4.tex}
-\input{../out/tex/MSP_A_TX1_MSP_C_RX18_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX2_MSP_C_RX17_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX3_MSP_A_RX9_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX4_MSP_A_RX8_Minipod_Loopback_6.4.tex}
-\input{../out/tex/Partial_TRP_TX5_MSP_C_RX14_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX1_MSP_C_RX11_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX2_MSP_C_RX10_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX3_MSP_A_RX2_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX4_MSP_A_RX1_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX1_MSP_C_RX13_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_A_TX2_MSP_C_RX12_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX3_MSP_A_RX4_Minipod_Loopback_6.4.tex}
-\input{../out/tex/MSP_C_TX4_MSP_A_RX3_Minipod_Loopback_6.4.tex}
+\section{Eye diagram mask}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.70\linewidth]{ieeemask.png}
+\caption{Transmitter eye mask definition}
+\label{fig:ieeemask}
+\end{figure}
+
+Figure \ref{fig:ieeemask} shows the eye mask parameters {X1, X2, X3, Y1, Y2, Y3} = {0.25, 0.40, 0.45, 0.25, 0.28, 0.80} extracted from the Table 68-3---10GBASE-LRM transmit characteristics part of the IEEE Std 802.3-2015 SECTION 5. 
+
+\chapter{MUCTPI V1 6.4 Gbps} \newpage
+\input{../out/tex/MSP_A_TX1_MSP_C_RX16_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX15_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX7_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX6_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_A_RX5_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/TRP_J1_QSFP_Loopback_V1-6.4.tex}
+\input{../out/tex/TRP_J3_SFP_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TRP_On_board_links_V1-6.4.tex}
+\input{../out/tex/MSP_C_TRP_On_board_links_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX18_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX17_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX9_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX8_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_C_RX14_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX11_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX10_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX2_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX1_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX13_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX12_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX4_Minipod_Loopback_V1-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX3_Minipod_Loopback_V1-6.4.tex}
+
+\chapter{MUCTPI V1 12.8 Gbps} \newpage
+\input{../out/tex/MSP_A_TX1_MSP_C_RX16_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX15_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX7_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX6_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_A_RX5_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/TRP_J1_QSFP_Loopback_V1-12.8.tex}
+\input{../out/tex/TRP_J3_SFP_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TRP_On_board_links_V1-12.8.tex}
+\input{../out/tex/MSP_C_TRP_On_board_links_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX18_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX17_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX9_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX8_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_C_RX14_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX11_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX10_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX2_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX1_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX13_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX12_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX4_Minipod_Loopback_V1-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX3_Minipod_Loopback_V1-12.8.tex}
+
+\chapter{MUCTPI V2 6.4 Gbps} \newpage
+\input{../out/tex/MSP_A_TX1_MSP_C_RX15_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX16_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX6_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX7_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_A_RX5_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/TRP_J1_QSFP_Loopback_V2-6.4.tex}
+\input{../out/tex/TRP_J3_SFP_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TRP_On_board_links_V2-6.4.tex}
+\input{../out/tex/MSP_C_TRP_On_board_links_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX17_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX18_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX8_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX9_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_C_RX14_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX10_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX11_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX1_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX2_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX12_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX13_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX3_Minipod_Loopback_V2-6.4.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX4_Minipod_Loopback_V2-6.4.tex}
+
+\chapter{MUCTPI V2 12.8 Gbps} \newpage
+\input{../out/tex/MSP_A_TX1_MSP_C_RX15_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX16_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX6_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX7_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_A_RX5_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/TRP_J1_QSFP_Loopback_V2-12.8.tex}
+\input{../out/tex/TRP_J3_SFP_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TRP_On_board_links_V2-12.8.tex}
+\input{../out/tex/MSP_C_TRP_On_board_links_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX17_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX18_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX8_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX9_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/Partial_TRP_TX5_MSP_C_RX14_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX10_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX11_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX1_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX2_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX1_MSP_C_RX12_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_A_TX2_MSP_C_RX13_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX3_MSP_A_RX3_Minipod_Loopback_V2-12.8.tex}
+\input{../out/tex/MSP_C_TX4_MSP_A_RX4_Minipod_Loopback_V2-12.8.tex}
+
+
+
+
 
 
 

@@ -5,8 +5,8 @@
 ## File       : SetIBERTRun 3.tcl
 ## Author     : Marcos Oliveira
 ## Company    : CERN
-## Created    : 2018-08-29
-## Last update: 2018-08-29
+## Created    : 2018-09-28
+## Last update: 2018-09-28
 ## Platform   : Vivado 2017.2 
 ## Standard   : TCL
 ######################################################################################################################
@@ -16,7 +16,7 @@
 ######################################################################################################################
 ## Revisions  :
 ## Date        Version  Author  Description
-## 2018-08-29  1.0      msilvaol	Created
+## 2018-09-28  1.0      msilvaol	Created
 ######################################################################################################################
 
 
@@ -33,10 +33,10 @@ source prbs31_all.tcl
 source remove_links.tcl
 
 # create links 
-source create_links_TX1_RX13.tcl
-source create_links_TX2_RX12.tcl
-source create_links_TX3_RX4.tcl
-source create_links_TX4_RX3.tcl
+source create_links_TX1_RX12.tcl
+source create_links_TX2_RX13.tcl
+source create_links_TX3_RX3.tcl
+source create_links_TX4_RX4.tcl
 
 # reset the links
 source reset_all.tcl

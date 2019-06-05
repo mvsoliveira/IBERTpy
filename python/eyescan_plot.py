@@ -91,7 +91,7 @@ def get_eye(scan_list):
 
 
 #Generate eyescan plots
-def eyescan_plot(filename_i, filename_o, minlog10ber, colorbar=True, xaxis=True, yaxis=True, xticks_f=[],yticks_f=[], mask=[]):
+def eyescan_plot(filename_i, filename_o, minlog10ber, colorbar=True, xaxis=True, yaxis=True, xticks_f=[],yticks_f=[], mask_x1x2x3y1y2 = (0.25, 0.4, 0.45, 0.25, 0.28)):
     
     # opens the file
     with open(filename_i, 'rb') as f:
@@ -105,7 +105,7 @@ def eyescan_plot(filename_i, filename_o, minlog10ber, colorbar=True, xaxis=True,
     # Defining mask
     size = [len(xticks), len(yticks)]
     #mask = gen_hexagon_mask(size, 0.22, 0.375, 0.2)
-    mask = gen_decagon_mask(size, 0.25, 0.4, 0.45, 0.25, 0.28)
+    mask = gen_decagon_mask(size, *mask_x1x2x3y1y2)
 
     # testing Mask
     Passed = True

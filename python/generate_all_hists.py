@@ -152,7 +152,7 @@ for rate in rates:
             lname = name_red
             k+=1
       
-    print 'Min AP: {minap:6.2f} Max AP: {maxap:6.2f}'.format(minap=min(oa),maxap=max(oa))
+    print 'Min AP: {minap:6.2f} Max AP: {maxap:6.2f} Average AP: {avap:6.2f}'.format(minap=min(oa),maxap=max(oa),avap=np.mean(oa))
     plt.title('Horizontal and Vertical Opening Scatter Plot for Rate of {0:s} Gbps'.format(rate))
     plt.ylabel('Vertical Opening Percentage')
     plt.xlabel('Horizontal Opening Percentage')
@@ -166,13 +166,13 @@ for rate in rates:
     
     # histograms
     for t,d in zip(histograms,[hph,vph,oah]):
-        plt.figure(num=None, figsize=(10, 8), dpi=80, facecolor='w', edgecolor='k')
+        plt.figure(num=None, figsize=(10, 4), dpi=80, facecolor='w', edgecolor='k')
         weights = np.ones_like(d)/float(len(d))
         n, bins, patches = plt.hist(d, weights=weights, bins= 10, facecolor='green', alpha=0.75)
         plt.xlabel(t)
         plt.ylabel('Ratio')
-        plt.title('{1:s} Histogram for Rate of {0:s} Gbps'.format(rate,t))
-        plt.axis([25, 100, 0, 1])
+        #plt.title('{1:s} Histogram for Rate of {0:s} Gbps'.format(rate,t))
+        plt.axis([20, 100, 0, 0.4])
         plt.grid(True)
         plt.savefig('../out/pdf/{1:s}Rate{0:s}Gbps.pdf'.format(rate,t),bbox_inches='tight')
         plt.close()

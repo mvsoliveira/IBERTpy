@@ -1,5 +1,5 @@
 # IBERTpy
-A Python package for running IBERT Eye scan in Vivado, ploting eye diagrams with mathplotlib and compiling results with LaTeX
+Python tool to manage Vivado IBERT tests by generating TCL scripts to automate the interconnection between links in Vivado, configuring their respective polarities, running the BER tests and eye-scan measurements, plotting eye-diagrams, running eye-mask checks, generating horizontal, vertical, and area opening histograms, and compile all the results into a PDF report
 
 ![Alt text](docs/logo.png?raw=true "Title")
 

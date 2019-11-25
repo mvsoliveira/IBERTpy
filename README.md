@@ -32,7 +32,7 @@ After step 7:
 
 1) Generate board netlist files using PCBpy 
 See instructions <a href="https://github.com/mvsoliveira/PCBpy/blob/master/docs/GeneratingCadenceInputFiles.pdf">here</a>.
-2) Get FPGA package files at the vendor website. Xilinx <a href="https://www.xilinx.com/support/package-pinout-files.html">here</a>, Intel <a href="https://www.intel.com/content/www/us/en/programmable/support/literature/lit-dp.html">here</a>.<br>
+2) Get FPGA package files <a href="https://www.xilinx.com/support/package-pinout-files.html">here</a>.<br>
 PCBpy reads only the Xilinx CSV files at the moment. 
   
 #### 2) Generate IBERT TCL scripts and LaTeX report files
@@ -48,7 +48,7 @@ A) Edit the ibert_tcl_tex_generator.py with the following information:
 
 B) Run ibert_tcl_tex_generator.py and check the results at out/tcl and out/tex
 
-#### 3,4 and 5) Configure the links and get the CSV scan files
+#### 3, 4 and 5) Configure the links and get the CSV scan files
 
 1) Configure the board
 2) Open the Vivado hardware Manager

@@ -25,7 +25,7 @@ After steps 6:
 2) PDF (scans/pdf) files with eye diagrams for every link in different configurations (generate_all_plots.py)
 
 After step 7:
-1) PDF Report with all the eye diagrams (latex/report.tex)
+1) PDF Report with all the eye diagrams (latex/report.tex). Example <a href="https://github.com/mvsoliveira/IBERTpy/raw/master/latex/report.pdf">here</a>.
 
 # Instructions:
 #### 1) Board netlist and FPGA package files
@@ -72,7 +72,7 @@ Make sure rates is set according to tex_runs defined in step 2.4. The variable l
 
 #### 7) Generate LaTeX PDF report file
 
-The main LaTeX report.tex file is not generated automatically yet. However, all the summary and detailes pages are automatically generated. 
+The main LaTeX report.tex file is not generated automatically yet. However, all the summary and detailed pages are automatically generated. 
 
 1) Edit the report.tex main teX file accordingly. The output from genTexInputCalls(tex_files) method in ibert_tcl_tex_generator.py can be useful. 
 2) Make sure you LaTeX environment includes the packages used in the report.tex file 
